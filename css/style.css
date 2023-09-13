@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.build{
+    background-color: #012F34;
+    background-image: url(../img/Group\ 8\ \(6\).png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 45px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.build__info{
+    color: white;
+    font-size: 70px;
+    font-weight: 700px;
+}
+.build__box{
+    padding-top: 10px;
+    flex-wrap: 1;
+    padding-right: 100px;
+}
+.b__item{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.item__title{
+    color: #F67E7E;
+    font-size: 15px;
+}
+.item__info{
+    width: 400px;
+    color: white;
+    font-size: 13px;
+}
+
+
+/* responsibility */
+@media (max-width: 1297px) {
+    /* .build{
+        background-color: #012F34;
+        background-image: url(../img/Group\ 8\ \(6\).png);
+        background-repeat: no-repeat;
+        background-position:   bottom right 150px;
+    } */
+    .build__info{
+        color: white;
+        font-size: 57px;
+        font-weight: 700px;
+        padding-top: 39px;
+    }
+}
+@media (max-width:1091px) {
+    .build__info{
+        color: white;
+        font-size: 47px;
+        font-weight: 700px;
+        padding-top: 49px;
+    }
+    .b__img{
+        width: 55px;
+        height: 55px;
+    }
+    .build__box{
+        padding-top: 15px;
+        flex-wrap: 1;
+        padding-right: 100px;
+    }
+    .item__title{
+        color: #F67E7E;
+        font-size: 13px;
+    }
+    .item__info{
+        width: 300px;
+        color: white;
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width:930px)  {
+    .build__info{
+        color: white;
+        font-size: 37px;
+        font-weight: 700px;
+        padding-top: 49px;
+        margin-left: 0px;
+    }
+    .b__img{
+        width: 35px;
+        height: 35px;
+    }
+    .build__box{
+        margin-top: 15px;
+        /* padding-top: 3px; */
+        flex-wrap: 1;
+        padding-right: 100px;
+    }
+    .item__title{
+        color: #F67E7E;
+        font-size: 13px;
+    }
+    .item__info{
+        width: 250px;
+        color: white;
+        font-size: 10px;
+    }
+}
+@media (max-width: 741px)  {
+    .build__info{
+        color: white;
+        font-size: 27px;
+        font-weight: 700px;
+        padding-top: 49px;
+        margin-left: 0px;
+    }
+    .b__img{
+        width: 40px;
+        height: 40px;
+    }
+    .build__box{
+        margin-top: 5px;
+        /* padding-top: 3px; */
+        flex-wrap: 1;
+        padding-right: 100px;
+    }
+    .item__title{
+        color: #F67E7E;
+        font-size: 10px;
+    }
+    .item__info{
+        width: 200px;
+        color: white;
+        font-size: 8px;
+    }
+}
+@media (max-width: 620px)  {
+    .build__info{
+        color: white;
+        font-size: 17px;
+        font-weight: 700px;
+        padding-top: 19px;
+        margin-left: 0px;
+    }
+    .b__img{
+        width: 35px;
+        height: 35px;
+    }
+    .build__box{
+        margin-top: -35px;
+        /* padding-top: 3px; */
+        flex-wrap: 1;
+        padding-right: 100px;
+    }
+    .item__title{
+        color: #F67E7E;
+        font-size: 10px;
+    }
+    .item__info{
+        width: 250px;
+        color: white;
+        font-size: 7px;
+    }
+}
+@media (max-width: 574px)  {
+    .hero{
+        display: block;
+        /* justify-content: space-around; */
+        padding-left: 45px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .build__box{
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    .build__info{
+        width: 240px;
+        color: white;
+        font-size: 32px;
+        font-weight: 700px;
+    }
+    .b__item{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .b__img{
+        width: 35px;
+        height: 35px;
+    }
+    .build__box{
+        margin-top: -35px;
+        /* padding-top: 3px; */
+        flex-wrap: 1;
+        padding-right: 100px;
+    }
+    .item__title{
+        color: #F67E7E;
+        font-size: 10px;
+    }
+    .item__info{
+        width: 250px;
+        color: white;
+        font-size: 7px;
+    }
+}
